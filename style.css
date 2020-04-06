@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.table{
+    width: 115%;
+    border: 3px solid green(0, 0, 0);
+    border-collapse: collapse;
+    align-items: center;
+}
+
+th,td{
+    border: solid 3px green;
+    padding: 10px;
+    background-color: green(175, 175, 175);
+}
+
+.btn{
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*BOTON VERDE*/
+.btn-green{
+    color: white;
+    background-color: green;
+}
+
+.btn-green:hover{
+    background-color: #00334d;
+}
+/*BOTON AMARILLO*/
+.btn-yellow{
+    color: black;
+    background-color: yellow;
+}
+
+.btn-yellow:hover{
+    color: white;
+    background-color: #00334d;
+}
+/*BOTON ROJO*/
+.btn-red{
+    color: white;
+    background-color: red;
+}
+
+.btn-red:hover{
+    background-color: #00334d;
+}
+
+.center{
+    text-align: center;
+}
+
+.activo{
+    color: green;
+}
+
+.inactivo{
+    color: red;
+}
+
